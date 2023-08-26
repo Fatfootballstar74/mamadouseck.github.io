@@ -1,0 +1,17 @@
+@import "index.css";
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-gallery img {
+    margin: 10px;
+    max-width: 200px;
+}
+
+.video-gallery video {
+    margin: 10px;
+    max-width: 200px;
+}
